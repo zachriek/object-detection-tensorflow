@@ -41,10 +41,10 @@ const App = () => {
       <div className="container mx-auto text-center">
         <h1 className="text-2xl text-zinc-900 font-bold mb-4">Hello World</h1>
         <div className="flex items-center justify-center gap-x-3">
-          <button className="px-4 py-2 bg-white hover:bg-zinc-900 border-2 border-zinc-900 text-zinc-900 rounded mb-4" onClick={toggleUserMode}>
+          <button className="px-4 py-2 bg-white hover:bg-zinc-900 border-2 border-zinc-900 text-zinc-900 hover:text-white rounded mb-4" onClick={toggleUserMode}>
             Change Mode
           </button>
-          <button className="px-4 py-2 bg-zinc-800 hover:bg-zinc-900 text-white rounded mb-4" onClick={predict}>
+          <button className="px-4 py-2 bg-zinc-800 hover:bg-zinc-900 border-2 border-zinc-800 text-white rounded mb-4" onClick={predict}>
             Predict
           </button>
         </div>
