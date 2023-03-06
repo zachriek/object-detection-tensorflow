@@ -23,7 +23,7 @@ const App = () => {
     }
   };
 
-  const videoOption = { width: 720, height: 480, facingMode: 'environment' };
+  const videoOption = { width: 720, height: 480, facingMode: 'user' };
 
   useEffect(() => {
     tf.ready().then(() => {
